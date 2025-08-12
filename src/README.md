@@ -10,7 +10,10 @@ test:
 
 If you have [Make](https://www.gnu.org/software/make/) installed (macOS includes it by default), you can run the prototype and tests with:
 
-```bash
+```bashmake run
+make test
+
+
 make run   # Run the prototype with the example dataset
 make test  # Run all Python tests in tests/
 
