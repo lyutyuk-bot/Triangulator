@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "id": "HITT",
+      "name": "Hittite Diplomatic Text",
+      "bias": "state",
+      "reliability": 0.7
+    },
+    {
+      "id": "ARCH",
+      "name": "Hisarlik Excavation Report",
+      "bias": null,
+      "reliability": 0.9
+    },
+    {
+      "id": "HOMR",
+      "name": "Homeric Epic",
+      "bias": "poetic",
+      "reliability": 0.3
+    },
+    {
+      "id": "NEUT",
+      "name": "Neutral Merchant Log",
+      "bias": "trade",
+      "reliability": 0.6
+    }
+  ],
+  "claim": {
+    "id": "TWAR",
+    "text": "A Late Bronze Age conflict occurred near Hisarlik."
+  },
+  "evidence": [
+    {
+      "source_id": "ARCH",
+      "type": "physical",
+      "claim": "Burn layer dated to LBA.",
+      "supports": true,
+      "strength": 0.95
+    },
+    {
+      "source_id": "HITT",
+      "type": "contemporary",
+      "claim": "References to Wilusa conflict.",
+      "supports": true,
+      "strength": 0.7
+    },
+    {
+      "source_id": "NEUT",
+      "type": "third_party",
+      "claim": "Trade disruptions reported.",
+      "supports": true,
+      "strength": 0.6
+    },
+    {
+      "source_id": "HOMR",
+      "type": "retrospective",
+      "claim": "Epic narrative of war.",
+      "supports": true,
+      "strength": 0.4
+    },
+    {
+      "source_id": "NEUT",
+      "type": "third_party",
+      "claim": "Later log suggests normal trade.",
+      "supports": false,
+      "strength": 0.3
+    }
+  ]
+}
